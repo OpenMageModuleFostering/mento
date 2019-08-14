@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Mento_Social>
+      <active>true</active>
+      <codePool>local</codePool>
+      <version>0.1.0</version>
+	  <depends>
+      	<Mage_Catalog />
+        <Mage_Api />
+      </depends>
+    </Mento_Social>
+  </modules>
+</config>

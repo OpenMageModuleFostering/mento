@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Mento</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Social Media Marketing Tool for Online Sellers</summary>
+    <description>Social Media Marketing Tool for Online Sellers</description>
+    <notes>Social Media Marketing Tool for Online Sellers</notes>
+    <authors><author><name>Mento</name><user>Mento</user><email>hello@mento.io</email></author></authors>
+    <date>2016-03-18</date>
+    <time>07:42:41</time>
+    <contents><target name="magelocal"><dir name="Mento"><dir name="Social"><dir name="Block"><dir name="Adminhtml"><file name="Promotion.php" hash="2b34691d4d7504caa0f7bf4ae15f26c8"/></dir></dir><dir name="Helper"><file name="Data.php" hash="cb9ad87fd7e6451303f06556594e8ca9"/></dir><dir name="Model"><dir name="Product"><file name="Api.php" hash="6b26aff7f0bfe292d1795a9f7672512d"/></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="PromotionController.php" hash="b467824ae243c4be5d8099c9483cda60"/></dir></dir><dir name="etc"><file name="config.xml" hash="39eefdc9319bef7e00e3f544a45db14f"/></dir><dir name="sql"><dir name="social_setup"><file name="mysql4-install-0.1.0.php" hash="7224511a61f87381c5e4f8bf43222a6c"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Mento_Social.xml" hash="ea5cc72e1a96f9b06ae66d8c9ca22299"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="template"><dir name="mento"><file name="promotion.phtml" hash="ef91e3abff01fe2db794fdafa0f95a12"/></dir></dir><dir name="layout"><file name="mento.xml" hash="c21b579339e1551f59b40040fd6ea633"/></dir></dir></dir></dir></target><target name="mage"><dir name="."><file name="Mento-Installation.pdf" hash="962c8e6eee91c8c77824d47207da4d3b"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

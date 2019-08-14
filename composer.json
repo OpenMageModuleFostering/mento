@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Mento",
+    "type": "magento-module",
+    "license": "OSL-v3.0",
+    "homepage": "",
+    "description": "Social Media Marketing Tool for Online Sellers",
+    "authors": [
+    {
+        "name": "Mento",
+        "email": "hello@mento.io"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

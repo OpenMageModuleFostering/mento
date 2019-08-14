@@ -1,0 +1,52 @@
+<div class="content-header">
+    <table cellspacing="0">
+        <tr>
+            <td style="width:50%;"><h3 class="icon-head head-newsletter-list">Mento</h3></td>
+            <td class="form-buttons">
+				<?php if(!Mage::helper('social')->validAPI() ) { ?>
+                <button class="scalable add" onclick="window.location='<?php echo Mage::helper("adminhtml")->getUrl("admin_mento/adminhtml_promotion/apirole") ?>'"><span><span><span><?php echo Mage::helper('social')->__('Create API User & Role'); ?></span></span></span></button>
+				<?php } ?>
+
+				<?php // if(!Mage::helper('social')->validtoken() ) { ?>
+				<button class="scalable add" onclick="window.location='<?php echo Mage::helper("adminhtml")->getUrl("admin_mento/adminhtml_promotion/apirole") ?>'"><span><span><span><?php echo Mage::helper('social')->__('Reconnect to Mento'); ?></span></span></span></button>
+				<?php // } ?>
+
+            </td>
+        </tr>
+    </table>
+</div>
+<div>
+   
+
+<?php
+
+	
+if(!Mage::helper('social')->validAPI()) { 
+	echo	'<table width="100%" cellspacing="0"  class="data">
+			<tbody>
+				<tr>
+					<td align="center"><h2>Connect your store with Mento</h2> <br />					
+                			<button class="scalable add" onclick="window.location=\''.Mage::helper("adminhtml")->getUrl("admin_mento/adminhtml_promotion/apirole").'\'"><span><span><span>'.Mage::helper('social')->__('Create API User & Role').'</span></span></span></button>
+					</td>	
+				</tr>
+			</tbody>
+			</table>';
+} else if(!Mage::helper('social')->validtoken()) { 
+	echo	'<table width="100%" cellspacing="0"  class="data">
+			<tbody>
+				<tr>
+					<td align="center"><h2>Your access token is expired</h2> <br />					
+                			<button class="scalable add" onclick="window.location=\''.Mage::helper("adminhtml")->getUrl("admin_mento/adminhtml_promotion/apirole").'\'"><span><span><span>'.Mage::helper('social')->__('Reconnect to Mento').'</span></span></span></button>
+					</td>	
+				</tr>
+			</tbody>
+			</table>';
+} else {
+	echo '<iframe frameborder="0" src="https://panel.mento.io/ecommerce/magento/list?access_token='.Mage::helper('social')->gettoken().'" width="100%" height="600" ></iframe>';
+}
+
+
+
+?>
+
+</div>
