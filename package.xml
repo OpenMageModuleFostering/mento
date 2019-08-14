@@ -1,18 +1,19 @@
 <?xml version="1.0"?>
 <package>
     <name>Mento</name>
-    <version>1.2.0</version>
+    <version>1.3.0</version>
     <stability>stable</stability>
-    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <license>OSL</license>
     <channel>community</channel>
     <extends/>
-    <summary>Social Media Marketing Tool for Online Sellers</summary>
+    <summary>Social Media Marketing Tool for Online Sellers&#xD;
+</summary>
     <description>Social Media Marketing Tool for Online Sellers</description>
-    <notes>Social Media Marketing Tool for Online Sellers</notes>
-    <authors><author><name>Mento</name><user>Mento</user><email>hello@mento.io</email></author></authors>
-    <date>2017-01-13</date>
-    <time>13:36:51</time>
-    <contents><target name="magelocal"><dir name="Mento"><dir name="Social"><dir name="Block"><dir name="Adminhtml"><file name="Promotion.php" hash="2b34691d4d7504caa0f7bf4ae15f26c8"/></dir></dir><dir name="Helper"><file name="Data.php" hash="0ee74ed013894983e59ab6d9dd27d003"/></dir><dir name="Model"><dir name="Product"><file name="Api.php" hash="6b26aff7f0bfe292d1795a9f7672512d"/></dir><dir name="Store"><file name="Api.php" hash="c1c6007f96bcd11d564f0586f0f3710f"/></dir><file name=".DS_Store" hash="36995b1ecc24f8969950f968014821fb"/><file name="._.DS_Store" hash="ec4a2c5ec6529cb5f55c76c0b28d7b9c"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="PromotionController.php" hash="06cb8935bf51fdbe94094585c6467e99"/></dir></dir><dir name="etc"><file name="api.xml" hash="591ca13cf078c94e05e3ef86283f8253"/><file name="config.xml" hash="269a2e8d526764738e0550193394fb2b"/></dir><dir name="sql"><dir name="social_setup"><file name="mysql4-install-0.1.0.php" hash="7224511a61f87381c5e4f8bf43222a6c"/></dir><file name=".DS_Store" hash="a03a2e0e829bc9124384b148a1f893c0"/><file name="._.DS_Store" hash="8086728f82867c728eb0da0b2405a589"/></dir><file name=".DS_Store" hash="490f003acf0ffd30c66a7eeb0aeb5cb4"/><file name="._.DS_Store" hash="ed258f97796f3053420a59c3565ce097"/></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Mento_Social.xml" hash="ea5cc72e1a96f9b06ae66d8c9ca22299"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="template"><dir name="mento"><file name="promotion.phtml" hash="ba2fa2d5c7b702ac8205a4a7e0fe6f79"/></dir></dir><dir name="layout"><file name="mento.xml" hash="c21b579339e1551f59b40040fd6ea633"/></dir></dir></dir></dir></target><target name="mage"><dir name="."><file name="Mento-Installation.pdf" hash="962c8e6eee91c8c77824d47207da4d3b"/></dir></target></contents>
+    <notes>Update the authentication flow</notes>
+    <authors><author><name>jimit</name><user>jimit</user><email>jimit@mento.io</email></author></authors>
+    <date>2017-01-17</date>
+    <time>07:31:43</time>
+    <contents><target name="magelocal"><dir name="Mento"><dir name="Social"><dir name="Block"><dir name="Adminhtml"><file name="Promotion.php" hash="2b34691d4d7504caa0f7bf4ae15f26c8"/></dir></dir><dir name="Helper"><file name="Data.php" hash="cb9ad87fd7e6451303f06556594e8ca9"/></dir><dir name="Model"><dir name="Product"><file name="Api.php" hash="6b26aff7f0bfe292d1795a9f7672512d"/></dir><dir name="Store"><file name="Api.php" hash="c1c6007f96bcd11d564f0586f0f3710f"/></dir><file name=".DS_Store" hash="36995b1ecc24f8969950f968014821fb"/><file name="._.DS_Store" hash="ec4a2c5ec6529cb5f55c76c0b28d7b9c"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="PromotionController.php" hash="9aae900710c828778ee72200e5baf5c5"/></dir></dir><dir name="etc"><file name="api.xml" hash="591ca13cf078c94e05e3ef86283f8253"/><file name="config.xml" hash="269a2e8d526764738e0550193394fb2b"/></dir><dir name="sql"><dir name="social_setup"><file name="mysql4-install-0.1.0.php" hash="7224511a61f87381c5e4f8bf43222a6c"/></dir><file name=".DS_Store" hash="a03a2e0e829bc9124384b148a1f893c0"/><file name="._.DS_Store" hash="8086728f82867c728eb0da0b2405a589"/></dir><file name=".DS_Store" hash="490f003acf0ffd30c66a7eeb0aeb5cb4"/><file name="._.DS_Store" hash="ed258f97796f3053420a59c3565ce097"/></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="mento.xml" hash="c21b579339e1551f59b40040fd6ea633"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Mento_Social.xml" hash="ea5cc72e1a96f9b06ae66d8c9ca22299"/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.2.0</min><max>7.0.0</max></php></required></dependencies>
 </package>

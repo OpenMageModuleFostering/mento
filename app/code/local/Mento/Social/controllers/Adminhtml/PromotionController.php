@@ -72,7 +72,7 @@ class Mento_Social_Adminhtml_PromotionController extends Mage_Adminhtml_Controll
 
 		
 		$ch 	= 	curl_init();
-		$url	=	"https://staging.mento.io/ecommerce/magento/apicreate";
+		$url	=	"https://panel.mento.io/ecommerce/magento/apicreate";
 		$req 	= 	array("full_name"=>$full_name,"email"=>$email,"api_user"=>$api_user,"api_key"=>$api_key, "stores"=>$stores);
 		$str = http_build_query($req);
 

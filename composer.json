@@ -1,13 +1,14 @@
 {
     "name": "OpenMageModuleFostering/Mento",
     "type": "magento-module",
-    "license": "OSL-v3.0",
+    "license": "OSL",
     "homepage": "",
-    "description": "Social Media Marketing Tool for Online Sellers",
+    "description": "Social Media Marketing Tool for Online Sellers
+",
     "authors": [
     {
-        "name": "Mento",
-        "email": "hello@mento.io"
+        "name": "jimit",
+        "email": "jimit@mento.io"
     }
 ],
     "suggest": {
