@@ -1,3 +1,9 @@
+<?php
+
+echo '<iframe frameborder="0" src="https://staging.mento.io/login?from=magento" width="100%" height="600" ></iframe>';
+exit;
+?>
+
 <div class="content-header">
     <table cellspacing="0">
         <tr>
@@ -41,8 +47,8 @@ if(!Mage::helper('social')->validAPI()) {
 				</tr>
 			</tbody>
 			</table>';
-} else {
-	echo '<iframe frameborder="0" src="https://panel.mento.io/ecommerce/magento/list?access_token='.Mage::helper('social')->gettoken().'" width="100%" height="600" ></iframe>';
+} else { 
+	echo '<iframe frameborder="0" src="https://staging.mento.io/ecommerce/magento/list?access_token='.Mage::helper('social')->gettoken().'" width="100%" height="600" ></iframe>';
 }
 
 

@@ -1,0 +1,33 @@
+<config>
+  <api>
+        <resources>
+            <core_store translate="title" module="core">
+                <title>Store API</title>
+                <model>core/store_api</model>
+                <acl>core/store</acl>
+                <methods>
+                    <getweb translate="title" module="core">
+                        <title>Retrieve website list</title>
+                        <method>getweb</method>
+                        <acl>core/store/getweb</acl>
+                    </getweb>                    
+                </methods>
+                <faults module="core_store">
+                </faults>
+            </core_store>
+        </resources> 
+        <acl>
+            <resources>
+                <core translate="title" module="core">
+                    <store translate="title" module="core">
+                        <title>Core</title>
+                        <sort_order>1</sort_order>
+                        <getweb translate="title" module="core">
+                            <title>Website List</title>
+                        </getweb>
+                    </store>
+                </core>
+            </resources>
+        </acl>
+    </api>  
+</config>

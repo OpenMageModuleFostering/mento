@@ -4,7 +4,8 @@
     <Mento_Social>
       <version>0.1.0</version>
     </Mento_Social>
-  </modules>
+  </modules>	  
+  
   <global>
 	<models>
             <catalog>
@@ -12,6 +13,11 @@
                     <product_api>Mento_Social_Model_Product_Api</product_api>
                 </rewrite>
             </catalog>
+            <core>
+                <rewrite>
+                    <store_api>Mento_Social_Model_Store_Api</store_api>
+                </rewrite>
+            </core>
         </models>
     <helpers>
       <social>

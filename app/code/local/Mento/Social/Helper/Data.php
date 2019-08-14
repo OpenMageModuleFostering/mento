@@ -70,7 +70,7 @@ class Mento_Social_Helper_Data extends Mage_Core_Helper_Abstract
 			return false;
 		} else {
 			$ch 	= 	curl_init();
-			$url	=	"https://panel.mento.io/oauth/ping?access_token=".$token;
+			$url	=	"https://staging.mento.io/oauth/ping?access_token=".$token;
 			
 			curl_setopt($ch, CURLOPT_URL, $url);
 			curl_setopt_array($ch, array(CURLOPT_RETURNTRANSFER => TRUE));
