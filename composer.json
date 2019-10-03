@@ -1,17 +1,5 @@
 {
-    "name": "OpenMageModuleFostering/Mento",
-    "type": "magento-module",
-    "license": "OSL",
-    "homepage": "",
-    "description": "Social Media Marketing Tool for Online Sellers
-",
-    "authors": [
-    {
-        "name": "jimit",
-        "email": "jimit@mento.io"
-    }
-],
-    "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+    "keywords": [
+        "openmage-module"
+    ]
 }
